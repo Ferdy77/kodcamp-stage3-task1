@@ -1,0 +1,966 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.nav img {
+  height: 2rem;
+}
+
+.section-header {
+  height: 150vh;
+  width: 100%;
+  background-image: url('./images/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+}
+
+.section-header .text-icons {
+  margin-top: 200px;
+  margin-left: 12%;
+}
+
+.section-header .text-icons h4 {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 0rem;
+}
+
+.section-header .text-icons h1 {
+  font-size: 4rem;
+  margin: 4.3rem 0;
+  font-weight: 800;
+  letter-spacing: .2rem;
+}
+
+.section-header .line-break {
+  width: 50%;
+  border: 6px solid white;
+}
+
+.section-header .work-icons ul {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.section-header .work-icons img {
+  height: 6rem;
+}
+
+.section-header .work-icons li {
+  list-style-type: none;
+  line-height: 0.8rem;
+}
+
+.our-services {
+  text-align: center;
+  height: 100vh;
+  background-color: #F2F2F2;
+  width: 100%;
+  text-align: center;
+  margin-top: -45px;
+}
+
+.our-services .services-txt {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.our-services .services-txt h4 {
+  padding: 80px 0 0 0;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .1rem;
+}
+
+.our-services .services-txt h2 {
+  text-transform:capitalize;
+  letter-spacing: .1rem;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.our-services .services-txt p {
+  font-size: 1.4rem;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+  line-height: 1.8rem;
+}
+
+.booknow-btn {
+  margin-top: 50px;
+}
+
+.our-services a {
+  padding: 15px 30px;
+  background-color: #D1161D;
+  border-radius: 3px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+.need-help {
+  display: flex;
+  width: 70%;
+  margin: 60px auto;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.need-help .left-side {
+  width: 100%;
+  background-image: url('./images/billionphotos1882993.jpg');
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.need-help .left-side .p-txt {
+  width: 90% ;
+  margin: 90vh auto;
+  font-size: 0.8rem;
+}
+
+.need-help .right-side {
+  width: 100%;
+}
+
+.need-help .right-side .right-side-img {
+  background-image: url('./images/billionphotos1883011.jpg');
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+}
+
+.need-help .right-side h2 {
+  margin: 45px 0 10px 0;
+  font-size: 1.8rem;
+}
+
+.need-help .right-side h3 {
+  font-size: 1.8rem;
+  color: red;
+  margin-bottom: 40px;
+}
+
+.best-quality {
+  height: 130vh;
+  width:100%;
+  background: rgb(175,163,167);
+  background: linear-gradient(90deg, rgba(175,163,167,0) 0%, rgba(212, 207, 213,5) 100%);
+}
+
+.b-quality {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  gap: 40px;
+}
+
+.best-quality .b-quality .l-side {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.best-quality .b-quality .l-side img {
+  height: 130vh;
+}
+
+.best-quality .b-quality .r-side .para-container {
+  width: 87%;
+}
+
+.best-quality .b-quality .r-side h1 {
+  font-size: 3.2rem;
+  color: rgb(50, 50, 221);
+  margin-top: 145px;
+}
+
+.best-quality .b-quality .r-side .line-break-red {
+  border: 6px solid red;
+}
+
+.best-quality .b-quality .r-side p {
+  font-size: 1rem;
+  margin-top: 30px;
+  line-height: 2rem;
+}
+
+.best-quality .booknow-btn a {
+  margin-top: 24px;
+  padding: 15px 25px;
+  background-color: #D1161D;
+  border-radius: 3px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: .7rem;
+}
+
+.main-services {
+  width: 90%;
+  margin: 75px auto;
+}
+
+.main-services img {
+  height: 5rem;
+}
+
+.main-services .flex-container {
+  display: flex;
+  gap: 70px;
+}
+
+.main-services h3 {
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+
+.main-services .activity h4 {
+  font-size: 1.5rem;
+}
+
+.main-services .activity p {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.about-us {
+  height: 100vh;
+  width: 100%;
+  background-color: #0F4E91;
+}
+
+.about-us .about-us-container {
+  width: 80%;
+  margin: 80px auto;
+  display: flex;
+}
+
+.about-us-container .about-us-txt {
+  color: white;
+  width: 50%;
+  margin-top: 20vh;
+}
+
+.about-us-container .about-us-txt h4 {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .2rem;
+  padding-bottom: 0;
+  line-height: 0;
+}
+
+.about-us-container .about-us-txt h1 {
+  text-transform: capitalize;
+  font-size: 5.3rem;
+  font-weight: 100;
+}
+
+.about-us .inline-txt {
+  margin-top: -23px;
+}
+
+.about-us-container .about-us-txt .inline-txt  h2 {
+  font-size: 4.9rem;
+  text-transform: capitalize;
+  margin-top: -25px;
+}
+
+.about-us-container .about-us-images {
+  margin-top: 45px;
+  width: 50%;
+  height: 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px;
+}
+
+.about-us .about-us-images .about-us-image-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);}
+
+.about-us-container .about-us-images .image-item {
+  padding: 15px;
+}
+
+.about-us-images .gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.to-do {
+  width: 65%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.to-do h3 {
+  font-size: 1.8rem;
+  line-height: 2rem; 
+}
+
+.to-do p {
+  font-size: 1.9rem;
+  line-height: 2.5rem; 
+}
+
+.to-do .two-btn a {
+  padding: 15px 30px;
+  text-decoration: none;
+  border: 1px solid black;
+  margin-right: 10px;
+  border-radius: 3px;
+  color: white;
+}
+
+.to-do .two-btn .book-nw {
+  background-color: #D1161D;
+}
+
+.to-do .two-btn .call-us {
+  color: black;
+  padding: 15px 40px;
+}
+
+.footer {
+  background-color: rgb(46, 41, 41);
+  color: white;
+}
+
+.footer .footer-txt {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer .footer-txt .footer-para {
+  padding: 50px 0;
+  font-size: .9rem;
+}
+
+.footer .footer-txt .footer-link-txt {
+  font-size: .8rem;
+  padding: 20px 0;
+}
+
+.footer .footer-txt a {
+  color: #49bdd6;
+  padding: 30px 0;
+}
+
+/*Media query tablet*/
+@media (max-width: 769px) {
+  .section-header {
+    height: 125vh;
+    width: 100%;
+    background-image: url('./images/hero-bg-tablet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+  }
+  
+  .section-header .text-icons {
+    margin-top: 48vh
+  }
+
+  .section-header .text-icons h4 {
+    font-size: 2.7rem;
+  }
+
+  .section-header .text-icons h1 {
+    font-size: 3.8rem;
+    margin-top: 40px;
+  }
+
+  .section-header .line-break {
+    width: 55vw;
+    border: 6px solid white;
+  }
+
+  .section-header .work-icons img {
+    height: 4.5rem;
+    line-height: 0.1rem;
+  }
+  
+  .section-header .work-icons li {
+    line-height: 0.8rem;
+    margin-right: 4.3rem;
+  }
+
+  /*our services section*/
+  .our-services {
+    width: 100%;
+  }
+
+  .our-services .services-txt {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .our-services .services-txt h4 {
+    padding: 40px 0 0 0;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+  }
+
+  .our-services .services-txt h2 {
+    text-transform:capitalize;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    font-size: 2.6rem;
+  }
+  
+  .our-services .services-txt p {
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .booknow-btn {
+    margin-top: 25px;
+  }
+  
+  /*need help section*/
+  .need-help {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .need-help .left-side, .right-side {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .need-help .left-side  {
+    background-image: url('./images/billionphotos1882993.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+  }
+
+  .need-help .left-side .p-txt{
+    width: 75%;
+    margin-top: 85vh;
+    margin-left: -15wh;
+    margin-bottom: 0px;
+    font-size: .8rem;
+  }
+
+  .need-help .right-side {
+    width: 85%;
+    margin-top: 50vh;
+  }
+
+  .need-help .right-side h2, h3 {
+    margin-left: 6.5vw;
+  }
+
+  .need-help .right-side h2 {
+    font-size: 1.8rem;
+    margin-top: -15vh;
+  }
+
+  .need-help .right-side h3 {
+    font-size: 1.5rem;
+  }
+
+  
+  .need-help .right-side-txt .red-txt {
+    margin-bottom: 30px;
+  }
+
+  .need-help .right-side .right-side-img {
+    background-image: url('./images/billionphotos1883011.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+  }
+
+ /*Best Quality section*/
+  .b-quality {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    gap: 80px;
+  }
+  
+  .best-quality .b-quality .r-side {
+    margin-left: -10px;
+    width: 45%;
+  }
+  .best-quality .b-quality .r-side h1 {
+    width: 50px;
+    font-size: 2.5rem;
+    color: rgb(50, 50, 221);
+    margin-top: 150px;
+    line-height: 3rem;
+  }
+  
+  .best-quality .b-quality .r-side .line-break-red {
+    border: 6px solid red;
+  }
+  
+  .best-quality .b-quality .r-side p {
+    font-size: 1rem;
+    margin-top: 30px;
+    line-height: 1.6rem;
+  }
+
+  /*Our services section*/
+  .main-services {
+    width: 80%;
+    margin: 75px auto;
+    }
+
+  .main-services img {
+    height: 3.5rem;
+  }
+
+  .main-services .flex-container {
+    display: flex;
+    gap: 70px;
+  }
+
+  .main-services h3 {
+    text-transform: capitalize;
+    font-size: 2.3rem;
+    margin-left: -.2rem;
+  }
+
+  .main-services .activity h4 {
+    font-size: 1.2rem;
+  }
+
+  .main-services .activity p {
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  /*About us*/
+    .about-us {
+    height: 170vh;
+    background-color: #0F4E91;
+  }
+
+  .about-us .about-us-container {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-us .about-us-txt{ 
+    margin-top: 40px;
+  }
+
+  .about-us .about-us-container .about-us-txt h4 {
+    color: white;
+    width: 50%;  
+    margin-bottom: 60px; 
+  }
+
+  .about-us-container .about-us-txt {
+    text-transform: uppercase;
+    margin-left: 45px;
+  }
+
+  .about-us-container .about-us-txt .inline-txt h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: -30px;
+  }
+
+  .about-us-container .about-us-txt .inline-txt h2 {
+    font-size: 4rem;
+    font-weight: bolder;
+  }
+
+  .about-us-txt .inline-txt {
+    
+    text-transform: capitalize;
+    display: inline-flex;
+    gap: 20px;
+  }
+
+  .about-us .about-us-container .about-us-images {
+    margin: -25px auto;
+    width: 90%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+  }
+
+  .about-us .about-us-images .about-us-image-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);}
+
+  .about-us-container .about-us-images .image-item {
+    padding: 15px;
+  }
+
+  .about-us-images .gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /*To Do Section*/
+  .to-do {
+    width: 75%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .to-do h3 {
+    font-size: 1.6rem;
+    line-height: 2rem; 
+  }
+
+  .to-do p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  .to-do .two-btn a {
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-right: 10px;
+    border-radius: 3px;
+    color: white;
+    font-size: .8rem;
+  }
+
+  .to-do .two-btn {
+    margin: 50px 0;
+  }
+
+  .to-do .two-btn .book-nw {
+    background-color: #D1161D;
+  }
+
+  .to-do .two-btn .call-us {
+    color: black;
+    padding: 15px 40px;
+  }
+
+    /*Footer section*/
+  .footer {
+    background-color: rgb(46, 41, 41);
+    color: white;
+  }
+
+  .footer .footer-txt {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer .footer-txt .footer-para {
+    padding: 30px 0;
+  }
+
+  .footer .footer-txt .footer-link-txt {
+    font-size: .8rem;
+    padding: 20px 0;
+  }
+
+  .footer .footer-txt a {
+    color: #49bdd6;
+    padding: 30px 0;
+  }
+}
+
+/*Media query tablet*/
+@media (max-width: 428px) {
+  .section-header {
+    height: 150vh;
+    width: 100%;
+    background-image: url('./images/hero-bg-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+  }
+
+  /*Mobile section header*/
+  .section-header .text-icons {
+    margin-top: 104vh;
+    line-height: 0.3rem;
+    width: 80%;
+  }
+
+  .section-header .text-icons h4 {
+    font-size: 2.7rem;
+  }
+
+  .section-header .text-icons h1 {
+    font-size: 3.6rem;
+    margin-top: 40px;
+    margin-bottom: 3.5rem;
+  }
+
+  .section-header .text-icons .line-break {
+    border: 6px solid white;
+    width: 90%;
+  }
+
+  .section-header .work-icons  {
+    display: none;
+  }
+ 
+  /*our services section*/
+  .our-services {
+    width: 100%;
+  }
+
+  .our-services .services-txt {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .our-services .services-txt h4 {
+    padding: 40px 0 0 0;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+  }
+
+  .our-services .services-txt h2 {
+    text-transform:capitalize;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  /*Best Quality mobile section*/
+  .best-quality {
+    height: 200vh;
+    width: 100%;
+    background: rgba(78, 74, 75, 0.2);
+  }
+
+  .best-quality .b-quality {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .best-quality .b-quality .l-side {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .best-quality .b-quality .l-side img {
+    height: 80vh;
+    margin: 0 auto;
+  }
+
+  .best-quality .b-quality .r-side {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .r-side .para-container {
+    width: 80%;
+  }
+
+  .best-quality .b-quality .r-side .para-container .line-break-red {
+    width: 95%;
+  }
+  .best-quality .b-quality .r-side h1 {
+    font-size: 2.3rem;
+    color: rgb(50, 50, 221);
+    margin-top: 25px;
+  }
+
+  .best-quality .b-quality .r-side .line-break-red {
+    border: 6px solid red;
+    width: 70%;
+  }
+
+  .best-quality .b-quality .r-side .para-container p {
+    font-size: 1rem;
+    margin-top: 30px;
+    line-height: 1.5rem;
+  }
+
+  .best-quality .booknow-btn a {
+    margin-top: 24px;
+    padding: 15px 25px;
+    background-color: #D1161D;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: .7rem;
+  }
+  /*Our services section*/
+  .main-services {
+    width: 70%;
+    margin: 45px auto;
+    }
+
+  .main-services img {
+    height: 3.5rem;
+  }
+
+  .main-services .flex-container {
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .main-services h3 {
+    text-transform: capitalize;
+    font-size: 2.3rem;
+
+  }
+  .main-services .flex-container .activity  {
+    margin-bottom: -25px;
+
+  }
+  .main-services .activity h4 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .main-services .activity p {
+    font-size: 1rem;
+    font-style: italic;
+  }
+
+  /*About us mobile*/
+  .about-us {
+    height: 290vh;
+    background-color: #0F4E91;
+  }
+
+  .about-us .about-us-container {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-us .about-us-txt{ 
+    margin-top: 40px;
+  }
+
+  .about-us .about-us-container .about-us-txt h4 {
+    color: white;
+    width: 50%;  
+    margin-bottom: 60px; 
+    margin-bottom: 5pz;
+  }
+
+  .about-us-container .about-us-txt {
+    text-transform: uppercase;
+    margin-left: 45px;
+  }
+
+  .about-us-container .about-us-txt .inline-txt h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+
+  .about-us-container .about-us-txt .inline-txt h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+
+  .about-us-txt .inline-txt {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5rem;
+  }
+
+  .about-us .about-us-container .about-us-images {
+    margin: -25px auto;
+    width: 90%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 5px;
+  }
+
+  .about-us-container .about-us-images .image-item {
+    padding: 15px;
+  }
+
+  /*To Do section for mobile*/
+  .to-do {
+    width: 75%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .to-do .two-btn a {
+    padding: 8px 3px;
+    text-decoration: none;
+    border: 1px solid black;
+    margin: 20px auto;
+    border-radius: 3px;
+    color: white;
+    font-size: .8rem;
+  }
+
+  .to-do .two-btn .call-us {
+    color: black;
+    padding: 8px 3px;
+  }
+
+  .to-do .two-btn a, .call-us {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*footer mobile section*/
+  .footer .footer-txt {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footer .footer-txt .footer-para {
+    padding: 20px 0;
+    font-size: .9rem;
+  }
+  
+  .footer .footer-txt .footer-link-txt {
+    font-size: .7rem;
+    padding: 10px 0;
+  }
+}
